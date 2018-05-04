@@ -1,0 +1,21 @@
+{
+  "name": "understanddecorators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.10.12",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
